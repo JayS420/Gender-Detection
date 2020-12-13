@@ -9,7 +9,7 @@ The keras model is created by training SmallerVGGNet from scratch on around 2200
 5. cvlib
 ## Install the required packages by executing the following command.
 
-**$ pip install -r requirements.txt
+**$ pip install -r requirements.txt**
 
 Note: Python 2.x is not supported
 

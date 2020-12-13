@@ -9,19 +9,11 @@ The keras model is created by training SmallerVGGNet from scratch on around 2200
 5. cvlib
 ## Install the required packages by executing the following command.
 
-**$ pip install -r requirements.txt**
+***$ pip install -r requirements.txt***
 
 Note: Python 2.x is not supported
 
-Using Python virtual environment is highly recommended.
+**Using Python==3.6 virtual environment is highly recommended.**
 
-Usage
-image input
-$ python detect_gender.py -i <input_image>
-
-webcam
-$ python detect_gender_webcam.py
-
-When you run the script for the first time, it will download the pre-trained model from this link and place it under pre-trained directory in the current path.
-
-(If python command invokes default Python 2.7, use python3 instead)
+# Training 
+You can download the dataset I gathered from Google Images from this link and train the network from scratch on your own if you are interested. You can add more images and play with the hyper parameters to experiment different ideas.
